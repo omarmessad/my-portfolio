@@ -4,6 +4,10 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import { HashLink } from 'react-router-hash-link';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 
 export const NavBar = () => {
 
@@ -29,6 +33,7 @@ export const NavBar = () => {
   }
 
   return (
+    <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
@@ -49,10 +54,13 @@ export const NavBar = () => {
                 <a href="https://www.facebook.com/omarmmessad/" target="_blank"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/omar_m_messad/" target="_blank"><img src={navIcon3} alt="" /></a>
               </div>
-                <button className="vvd" onClick={() => console.log("connect")}><span>Let’s Connect</span></button>
+              <HashLink to='#connect'>
+                <button className="vvd"><span>Let’s Connect</span></button>
+              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+    </Router>
   )
 }

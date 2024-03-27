@@ -1,7 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import {ProjectCard} from "./ProjectCard";
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/AgriPal.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 
@@ -9,32 +8,17 @@ import projImg3 from "../assets/img/project-img3.png";
 export const Projects = () => {
    const projects = [
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Agriculture Palestine",
+          description: "Farming Platform",
           imgUrl: projImg1,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "API Development",
+          description: "Barcode Generator API",
           imgUrl: projImg2,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
-        },
-        {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg1,
-        },
-        {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
-        },
-        {
-          title: "Business Startup",
+          title: "Personal Portfolio",
           description: "Design & Development",
           imgUrl: projImg3,
         },

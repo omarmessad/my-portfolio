@@ -445,6 +445,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 24px;
 }
 
+.proj-imgbx img {
+  opacity: 0.5;
+  width: 90%;
+  height: 300px;
+}
+
 .proj-imgbx:hover::before{
   height: 100%;
 }
