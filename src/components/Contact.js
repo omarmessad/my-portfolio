@@ -47,7 +47,7 @@ export const Contact = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col md={6}>
-                        <img src={contactImg} alt="Contact Us Image"/>
+                        <img src={contactImg} alt="Contact Us"/>
                     </Col>
                     <Col md={6}>
                         <h2>Get In Touch!</h2>

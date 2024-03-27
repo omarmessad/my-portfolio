@@ -14,9 +14,9 @@ export const Footer = () => {
                     </Col>
                     <Col sm={6} className="text-center text-sm-end"> {/* The icons will be centered in larger screens but will move to the end of the footer in the smaller screens */}
                         <div className="social-icon" id="socialIcons">
-                            <a href="https://www.linkedin.com/in/omarmessad/" target="_blank"><img src={navIcon1} alt="" /></a>
-                            <a href="https://www.facebook.com/omarmmessad/" target="_blank"><img src={navIcon2} alt="" /></a>
-                            <a href="https://www.instagram.com/omar_m_messad/" target="_blank"><img src={navIcon3} alt="" /></a>
+                            <a href="https://www.linkedin.com/in/omarmessad/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="LinkedIn Icon" /></a>
+                            <a href="https://www.facebook.com/omarmmessad/" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Facebook Icon" /></a>
+                            <a href="https://www.instagram.com/omar_m_messad/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram Icon" /></a>
                         </div>
                         <p>CopyRight 2022. All Rights Reserved by Omar Messad</p>
                     </Col>
